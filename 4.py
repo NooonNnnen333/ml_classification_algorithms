@@ -8,7 +8,7 @@ import ace_tools_open
 from collections import Counter, defaultdict
 
 # 1. Загрузка датасета
-df = pd.read_csv('ВСТАВТЕ ПУТЬ ДО exel-ФАЙЛА')
+df = pd.read_csv('ВСТАВЬТЕ ПУТЬ ДО exel-ФАЙЛА')
 
 # Формируем список признаков (последний столбец считается целевой переменной)
 feature_names = [f'Признак_{i + 1}' for i in range(df.shape[1] - 1)]
