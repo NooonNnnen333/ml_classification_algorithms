@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score, mean_absolute_error
 import ace_tools_open
 
 # 1. Загрузка набора данных
-df = pd.read_csv('ВСТАВТЕ ПУТЬ ДО exel-ФАЙЛА')
+df = pd.read_csv('ВСТАВЬТЕ ПУТЬ ДО exel-ФАЙЛА')
 
 # Вывод списка признаков
 columns_df = pd.DataFrame({'Признаки': df.columns})
