@@ -16,7 +16,7 @@ from sklearn.metrics import (
 import ace_tools_open   # или ace_tools, если вы используете ChatGPT-UI
 
 # 1. Загрузка датасета
-df = pd.read_csv("ВСТАВТЕ ПУТЬ ДО exel-ФАЙЛА")
+df = pd.read_csv("ВСТАВЬТЕ ПУТЬ ДО exel-ФАЙЛА")
 ace_tools_open.display_dataframe_to_user(
     "Список признаков",
     pd.DataFrame({"Признак": df.columns})
